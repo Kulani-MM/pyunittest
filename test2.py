@@ -1,7 +1,7 @@
 import unittest
 from cal import addNumbers, subNumbers 
 
-class unoTest(unittest.TestCase):
+class unoTest2(unittest.TestCase):
     def testPositiveNumbers(self):
         self.assertEqual(addNumbers(5,5), 10)
 
